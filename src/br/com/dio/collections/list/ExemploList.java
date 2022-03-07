@@ -12,6 +12,7 @@ import java.util.Collections;
  * @author vinivilasboas
  */
 
+
 public class ExemploList {
 
     public static void main(String[] args) {
@@ -44,10 +45,11 @@ public class ExemploList {
 
         JOptionPane.showMessageDialog(null, "Confira se a nota 5.0 está na lista: " + notas.contains(5d));
 
-        /* JOptionPane.showMessageDialog(null, "Exiba todas as notas na ordem em que foram informadas: ");
+        /*JOptionPane.showMessageDialog(null, "Exiba todas as notas na ordem em que foram informadas: ");
         for (Double nota: notas) {
             JOptionPane.showMessageDialog(null, nota.toString());
         } */
+
 
         JOptionPane.showMessageDialog(null, "Exiba a terceira nota adicionada: " + notas.get(2));
         JOptionPane.showMessageDialog(null, notas.toString());
